@@ -52,7 +52,7 @@ res_a = cursive.ask(
 
 print(res_a.answer) # Zephyr
 
-res_b = res_b.conversation.ask(
+res_b = cursive.ask(
     prompt='How would you say it in Portuguese?'
 )
 
